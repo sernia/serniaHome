@@ -9,10 +9,6 @@ Angular CLI: 8.3.22
 Node: 12.13.0
 OS: darwin x64
 Angular:
-...
-
-Package                      Version
-------------------------------------------------------
 @angular-devkit/architect    0.803.22
 @angular-devkit/core         8.3.22
 @angular-devkit/schematics   8.3.22
