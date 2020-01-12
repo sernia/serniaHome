@@ -4,9 +4,12 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { MemoComponent } from './memo/memo.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MemoComponent
   ],
   imports: [
     BrowserModule,
