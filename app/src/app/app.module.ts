@@ -5,11 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { MemoComponent } from './memo/memo.component';
+import { StudyComponent } from './study/study.component';
+import { IndexComponent } from './index/index.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MemoComponent
+    MemoComponent,
+    StudyComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,
