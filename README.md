@@ -18,3 +18,5 @@ rxjs                         6.4.0
 
 5. プログラム作成
 ng new app --style=scss --routing
+
+6. 
