@@ -6,10 +6,22 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script type="text/javascript" src="assets/js/delighters.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
   <article>
+    <header class="mainHeader">
+      <nav class="mainNav">
+        <ul class="mainNavUl">
+          <li class="mainNavLi">TOP</li>
+          <li class="mainNavLi">me?</li>
+          <li class="mainNavLi">myStory</li>
+          <li class="mainNavLi">日本語</li>
+          <li class="mainNavLi">あえいおう</li>
+        </ul>
+      </nav>
+    </header>
     <section data-delighter class="splash">
        <h1 data-delighter class="right">Delighters.JS</h1>
        <h2 data-delighter class="left">Add CSS animations to delight users as they scroll down.</h2>
@@ -47,7 +59,7 @@
           <code>.started</code> and <code>.ended</code>
        </p>
        <pre>
- /* when the library loads, each [data-delighter] 
+ /* when the library loads, each [data-delighter]
     gets the .delighter class */
 
  .foo.delighter {
@@ -57,7 +69,7 @@
  }
 
  /* the .started class is set when the top
-    of [data-delighter] is at 0.75 of the viewport 
+    of [data-delighter] is at 0.75 of the viewport
     (where 0 is top and 1 is bottom) */
 
  .foo.delighter.started {
@@ -65,7 +77,7 @@
     opacity: 1;
  }
 
- /* an extra .ended state is set when the bottom 
+ /* an extra .ended state is set when the bottom
     of [data-delighter] is at 0.75 of the viewport
     (where 0 is top and 1 is bottom) */
 
@@ -110,11 +122,11 @@ options = {
       <p>
         You can customize any or all of the above properties using:
       <pre>
-Delighters.config({    
+Delighters.config({
   // set the default start threshold at the bottom
   start: 1,
   // let's call Delighters.init() manually later
-  autoInit: false 
+  autoInit: false
   // ... etc ...
 })</pre>
     </section>
@@ -126,4 +138,5 @@ Delighters.config({
 
   <app-root></app-root>
 </body>
+
 </html>
