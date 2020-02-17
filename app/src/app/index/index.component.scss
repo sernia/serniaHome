@@ -167,6 +167,7 @@ a {
 .sLogo {
   animation: r7 6s linear infinite;
 }
+
 @keyframes r7 {
   0%   { transform: rotateY(0deg); }
   33%   { transform: rotateY(360deg); }
@@ -176,9 +177,8 @@ a {
 /* 「RightToLeft」の動作内容 */
 @keyframes RightToLeft {
   0% {
-    transform: translateX(100%);/* X軸方向に50px */
+    transform: translateX(110%);/* X軸方向に50px */
   }
-
   100% {
     transform: translateX(-10%);
   }
